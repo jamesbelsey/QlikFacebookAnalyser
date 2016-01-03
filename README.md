@@ -22,8 +22,11 @@ I’ve been playing with the REST connector and Facebook APIs for a few weeks an
 ###REST Connector documentation.
 
 Firstly, the documentation for the REST connector is pretty good and the instructions on how to set up a developer account and get connected to Facebook are excellent. Follow these steps to get your Facebook Developers account set up.
+
 http://help.qlik.com/Connectors/en-us/connectors/#../Subsystems/REST_connector_help/Content/1.0/Create-REST-connection/Connection-examples.htm
+
 The description of how the pagination works is correct, but things can get a little fiddly with how Facebook actually works. Pagination allows the connector to step through all the pages of data that Facebook returns, effectively clicking the 'next' button until no more data is returned. REST APIs can do this in a variety of different ways, for the Facebook post data, it uses the Next URL method (i.e. there is a field in the data returned that explicitly states the URL to get the next load of data).
+
 http://help.qlik.com/Connectors/en-us/connectors/#../Subsystems/REST_connector_help/Content/1.0/Create-REST-connection/Pagination-scenarios.htm%3FTocPath%3DQlik%2520Sense%2520connectors%7CREST%7C1.0%7CConnect%2520to%2520a%2520REST%2520data%2520source%7C_____4
 
 ###What I wanted to achieve
