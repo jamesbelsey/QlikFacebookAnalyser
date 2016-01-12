@@ -1,4 +1,15 @@
 # QlikFacebookAnalyser
+
+##Version 1.1
+
+This app has been updated to bring in more likes and comments on your posts. It will now bring up to 200 likers or comments per post as opposed to 25
+in the previous version.
+
+It will also now ignore errors returned from the Facebook API - sometimes there is a specific post that causes an error when returned through the Facebook API. The
+app will now load all posts up to that point, then continue with the next load of data, rather than simply exiting the reload process.
+
+#Project details
+
 A Qlik Sense app to analyse your Facebook posts
 
 This app allows you to quickly load in your own Facebook data and analyse it. In order to use it, you’ll need the Qlik REST connector, a Facebook developer account and two extension objects, then you’ll just need your access token and to update the connections to use your own token. Full instructions are in the script. Further details on how this was put together and how to use the REST connector with the Facebook API can be found below.
