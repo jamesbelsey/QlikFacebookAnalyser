@@ -1,6 +1,6 @@
-# QlikFacebookAnalyser
+##QlikFacebookAnalyser
 
-##Version 1.1
+###Version 1.1
 
 This app has been updated to bring in more likes and comments on your posts. It will now bring up to 200 likers or comments per post as opposed to 25
 in the previous version.
@@ -8,7 +8,7 @@ in the previous version.
 It will also now ignore errors returned from the Facebook API - sometimes there is a specific post that causes an error when returned through the Facebook API. The
 app will now load all posts up to that point, then continue with the next load of data, rather than simply exiting the reload process.
 
-#Project details
+##Project details
 
 A Qlik Sense app to analyse your Facebook posts
 
